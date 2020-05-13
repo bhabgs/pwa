@@ -4,13 +4,13 @@
  * @Author: bhabgs
  * @Date: 2020-05-11 14:57:02
  * @LastEditors: bhabgs
- * @LastEditTime: 2020-05-13 10:29:27
+ * @LastEditTime: 2020-05-13 15:33:27
  */
 console.log(123);
 const urls = {
-  index: '/public/index.html',
-  sw: '/public/scripts/sw1.js',
-  img: '/public/img/icon.png',
+  index: './index.html',
+  sw: './scripts/sw1.js',
+  img: './img/icon.png',
 };
 
 self.addEventListener('install', function(event) {

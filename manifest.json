@@ -1,7 +1,7 @@
 {
   "name": "智信",
   "short_name": "智信",
-  "start_url": "/public/",
+  "start_url": "https://bhabgs.github.io/pwa/",
   "display": "standalone",
   "background_color": "red",
   "description": "webapp - pwa",
