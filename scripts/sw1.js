@@ -4,13 +4,13 @@
  * @Author: bhabgs
  * @Date: 2020-05-11 14:57:02
  * @LastEditors: bhabgs
- * @LastEditTime: 2020-05-13 15:36:24
+ * @LastEditTime: 2020-05-13 15:37:59
  */
 console.log(123);
 const urls = {
   index: '/pwa/index.html',
-  sw: './scripts/sw1.js',
-  img: './img/icon.png',
+  sw: '/pwa/scripts/sw1.js',
+  img: '/pwa/img/icon.png',
 };
 
 self.addEventListener('install', function(event) {
